@@ -1,0 +1,5 @@
+#!/bin/bash
+
+javac *.java
+if [ $? -eq 0 ] then java ArraySortedSet
+fi
